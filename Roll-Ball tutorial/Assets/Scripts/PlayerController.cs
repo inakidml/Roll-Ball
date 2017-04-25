@@ -21,4 +21,8 @@ public class PlayerController : MonoBehaviour {
 
 		rb.AddForce (movement * speed);
 	}
+	void OnTriggerEnter(Collider Other){
+	
+		Destroy.
+	}
 }
