@@ -3,15 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CameraController : MonoBehaviour {
-	public GameObject player;
-	private Vector3 offset;
-	// Use this for initialization
-	void Start () {
-		offset = transform.position - player.transform.position;
+	public GameObject target;
+	public float damping = 1;
+	Vector3 offset;
+
+	void Start() {
+		offset = target.transform.position - transform.position;
 	}
-	
-	// Update is called once per frame
-	void LateUpdate () {
-		transform.position = player.transform.position + offset;
-	}
+
+	void LateUpdate() {
+		float currentAngle = transform.eulerAngles.y;
+		float desiredAngle = target.transform.eulerAngles.y;
+		float angle = Mathf.LerpAngle(currentAngle, desiredAngle, Time.deltaTime * damping);
+
+		Quaternion rotation = Quaternion.Euler(angle, 0,  0);
+		transform.position = target.transform.position - (rotation * offset);
+
+		transform.LookAt(target.transform);
+}
 }

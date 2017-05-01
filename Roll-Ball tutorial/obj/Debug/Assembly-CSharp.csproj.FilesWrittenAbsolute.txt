@@ -33,3 +33,7 @@
 /Volumes/MacbookProHD/Users/inaki/GitHub/Roll-Ball/Roll-Ball tutorial/Temp/bin/Debug/Unity.CecilTools.dll
 /Volumes/MacbookProHD/Users/inaki/GitHub/Roll-Ball/Roll-Ball tutorial/Temp/bin/Debug/Mono.Cecil.Pdb.dll
 /Volumes/MacbookProHD/Users/inaki/GitHub/Roll-Ball/Roll-Ball tutorial/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Volumes/MacbookProHD/Users/inaki/GitHub/Roll-Ball/Roll-Ball tutorial/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Volumes/MacbookProHD/Users/inaki/GitHub/Roll-Ball/Roll-Ball tutorial/Temp/bin/Debug/Assembly-CSharp.dll
+/Volumes/MacbookProHD/Users/inaki/GitHub/Roll-Ball/Roll-Ball tutorial/obj/Debug/Assembly-CSharp.dll
+/Volumes/MacbookProHD/Users/inaki/GitHub/Roll-Ball/Roll-Ball tutorial/obj/Debug/Assembly-CSharp.dll.mdb
